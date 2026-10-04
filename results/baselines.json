@@ -1,0 +1,42 @@
+[
+  {
+    "model": "SatNet (ours)",
+    "params_M": 1.21,
+    "mean_ms": 4.56,
+    "p95_ms": 6.2,
+    "val_acc": null,
+    "edge_ok": true
+  },
+  {
+    "model": "MobileNetV2",
+    "params_M": 2.24,
+    "mean_ms": 12.19,
+    "p95_ms": 14.87,
+    "val_acc": null,
+    "edge_ok": true
+  },
+  {
+    "model": "EfficientNet-B0",
+    "params_M": 4.02,
+    "mean_ms": 17.38,
+    "p95_ms": 18.92,
+    "val_acc": null,
+    "edge_ok": true
+  },
+  {
+    "model": "ResNet-18",
+    "params_M": 11.18,
+    "mean_ms": 13.44,
+    "p95_ms": 15.33,
+    "val_acc": null,
+    "edge_ok": false
+  },
+  {
+    "model": "ResNet-50",
+    "params_M": 23.53,
+    "mean_ms": 31.84,
+    "p95_ms": 35.69,
+    "val_acc": null,
+    "edge_ok": false
+  }
+]

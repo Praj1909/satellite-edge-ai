@@ -1,0 +1,63 @@
+{
+  "ring_buffer": {
+    "push_us": 25.2,
+    "pop_us": 1.72,
+    "overflows": 450,
+    "complexity": "O(1)"
+  },
+  "sliding_window": {
+    "ten_k_ms": 11.1,
+    "stat_us": 0.274,
+    "complexity": "O(1) amortised"
+  },
+  "priority_queue": {
+    "enq_ms": 0.124,
+    "drain_ms": 0.181,
+    "order": [
+      "P0:wildfire",
+      "P0:flood",
+      "P1:ndvi",
+      "P2:classify",
+      "P3:log",
+      "P4:archive",
+      "P4:compress"
+    ],
+    "heap_correct": true,
+    "complexity": "O(log n)"
+  },
+  "inference": {
+    "mean_ms": 4.74,
+    "min_ms": 3.97,
+    "p95_ms": 6.19,
+    "params": 1207402
+  },
+  "dijkstra": {
+    "mean_ms": 0.011,
+    "p95_ms": 0.011,
+    "nodes": 5,
+    "edges": 8,
+    "complexity": "O((V+E)log V)"
+  },
+  "network_5g": {
+    "slice_counts": {
+      "URLLC": 100,
+      "eMBB": 100,
+      "mMTC": 0
+    },
+    "avg_bw_saving_pct": 99.9,
+    "slice_simulator": {
+      "eMBB": {
+        "count": 100,
+        "mean_ms": 22.56,
+        "p95_ms": 35.62,
+        "sla_met": 100
+      },
+      "URLLC": {
+        "count": 100,
+        "mean_ms": 2.12,
+        "p95_ms": 2.86,
+        "sla_met": 100
+      }
+    }
+  }
+}
