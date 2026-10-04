@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+
+# Local environment files
+.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Large datasets
+data/eurosat_data/
+data/**/*.zip
+
+# Temporary files
+*.tmp
+*.temp
